@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&display=swap");
+* {
+  box-sizing: border-box;
+  font-family: "Montserrat", serif;
+  font-optical-sizing: auto;
+}
+html {
+  direction: rtl;
+}
+.mainBox {
+  max-width: 650px;
+  min-width: 400px;
+  width: 35%;
+  margin-right: 15%;
+  overflow: hidden;
+  border-radius: 10px;
+  background-color: #332a224e;
+  backdrop-filter: blur(4px);
+  border: solid 1px #ffffff3e;
+}
+
+@media (max-width: 1024px) {
+  .mainBox {
+    margin-right: 10%;
+  }
+}
+@media (max-width: 768px) {
+  .mainBox {
+    margin: auto;
+    max-width: 400px;
+    width: 70%;
+  }
+}
+@media (max-width: 500px) {
+  .mainBox {
+    margin: auto;
+    max-width: 400px;
+    min-width: 250px;
+    width: 85%;
+  }
+}
+
+.prayer {
+  background: #fb461966;
+  border-radius: 5px;
+  letter-spacing: 1px;
+  border: solid 1px #888888;
+}
+.prayer:hover {
+  border: solid 1px #aaaaaa;
+  background: #bb5629;
+}
